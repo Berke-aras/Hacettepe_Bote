@@ -1,7 +1,7 @@
 const video = document.querySelector(".video");
 const toggleButton = document.querySelector(".toggleButton");
 const sliders = document.querySelectorAll(".controls__slider");
-video.autoplay = true;
+document.querySelector("video").play();
 
 function togglePlay() {
     if (video.paused || video.ended) {
