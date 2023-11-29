@@ -78,8 +78,15 @@ hr {
 }
 
 img {
-    width: 80vw;
+    width: 800px;
 }
+
+@media (max-width: 820px) {
+    img {
+        width: 70vw;
+    }
+}
+
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
@@ -87,6 +94,6 @@ img {
     }
 
     img {
-        width: 80vw;
+        width: 70vw;
     }
 }
