@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablo</title>
     <style>
-        table{
+        table {
             margin: auto;
             text-align: center;
+            border: 2px solid black;
+            height: 50vh;
+            width: 100vw;
+        }
+
+        tr {
+            border: 1px solid black;
+        }
+
+        td {
+            border: 1px solid black;
+
         }
     </style>
 </head>
+
 <body>
-    <table border="1">
+    <table>
         <tr>
             <td colspan="8">Col1</td>
             <td colspan="8">Col2</td>
@@ -21,7 +35,7 @@
 
         <tr>
             <td rowspan="8" colspan="8">row1 cell1</td>
-            <td colspan="8">Row 1 cell2</td> 
+            <td colspan="8">Row 1 cell2</td>
             <td colspan="8">Row 1 cell3</td>
         </tr>
 
@@ -35,4 +49,5 @@
         </tr>
     </table>
 </body>
+
 </html>
