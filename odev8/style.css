@@ -39,7 +39,7 @@ img {
     object-fit: cover;
     vertical-align: middle;
     overflow: hidden;
-    max-width: 400px;
+    max-width: 500px;
     height: 300px;
     border-radius: 6%;
 }
@@ -151,5 +151,10 @@ button:hover i::after {
     .container {
         justify-content: center;
         margin-left: 0;
+    }
+
+    img {
+        max-width: 360px;
+        height: 260px;
     }
 }
