@@ -154,7 +154,7 @@ button:hover i::after {
     }
 
     img {
-        max-width: 320px;
-        height: 220px;
+        max-width: 350px;
+        height: 230px;
     }
 }
