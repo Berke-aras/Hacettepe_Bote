@@ -8,7 +8,7 @@ for (let i = 0; i < 10; i++) {
     const ctx = c.getContext("2d");
 
     document.getElementById(`canvas${i}`).style.padding = "0 0 80px 0";
-    document.getElementById(`canvas${i}`).style.color = "blue";
+    document.getElementById(`canvas${i}`).style.backgroundColor = "blue";
     ctx.beginPath();
     ctx.rect(20, 20, 200, 130);
     ctx.stroke();

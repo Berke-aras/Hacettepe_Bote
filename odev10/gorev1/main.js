@@ -5,9 +5,7 @@ function show() {
 }
 
 function closee() {
-    console.log("sdadsddas");
     modal.classList.remove("open");
-    console.log("sdadsddas");
 }
 
 const myTimeout = setTimeout(show, 500);
