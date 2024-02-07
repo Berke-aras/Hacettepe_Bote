@@ -1,3 +1,3 @@
 https://berke-aras.github.io/bote/
 
-Hacettepe..
+Hacettepe Böte Web Tabanlı Programlama dersi çalışmaları.
